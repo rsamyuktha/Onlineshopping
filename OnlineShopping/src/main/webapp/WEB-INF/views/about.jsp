@@ -1,20 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<h1>About Us</h1>
-			<hr>
-			<p>This is About Us page</p>
+<div class="container">
 
-		</div>
+	<div class="row">	
+		
+		<h1>About Us</h1>
+		<hr/>
+		<p>Online Fashion Shopping: convenient, fast and affordable!
+
+Shopping is fun and exhilarating and more so when you can shop 24x7 without leaving the comfort of home.You can find your desired products more quickly and easily using our user-friendly online shopping platform. Fill your cart up to the brim in just a few seconds and get swift home delivery for all orders. All of this topped with our exclusive offers makes for an exciting, irresistible combo!</p>	
+	
 	</div>
 
-</body>
-</html>
+
+</div>

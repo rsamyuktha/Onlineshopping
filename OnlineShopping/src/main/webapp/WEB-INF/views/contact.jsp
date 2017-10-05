@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<h1>Contact Us</h1>
-			<hr>
-			<p>This is Contact Us page</p>
+<div class="container">
 
-		</div>
-</body>
-</html>
+	<div class="row">	
+		
+		<h1>Contact Us</h1>
+		<hr/>
+		<p>Hopefully, you will find the answer to your query, but if you don’t, please feel free to contact us and we promise we will do our best to resolve your concern.
+
+You can drop us an email at care@niit.com or call our customer care executive on 0124-6128000.
+
+At first contact, you will be addressed by one of our customer service representatives. Our Customer Service Representatives are empowered to resolve complex issues and complaints by making fair and reasonable customer service decisions.
+
+For every issue we will give you a reference number, decide on a course of action and keep you updated throughout the process.</p>	
+	
+	</div>
+
+
+</div>
