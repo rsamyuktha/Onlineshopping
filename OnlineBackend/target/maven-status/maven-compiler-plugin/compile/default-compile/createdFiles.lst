@@ -2,10 +2,17 @@ com\niit\OnlineBackend\daoimpl\UserDAOImpl.class
 com\niit\OnlineBackend\dao\UserDAO.class
 com\niit\OnlineBackend\daoimpl\CategoryDAOImpl.class
 com\niit\OnlineBackend\dao\CategoryDAO.class
+com\niit\OnlineBackend\model\OrderItem.class
+com\niit\OnlineBackend\model\Address.class
+com\niit\OnlineBackend\model\CartLine.class
 com\niit\OnlineBackend\config\HibernateConfig.class
 com\niit\OnlineBackend\dao\ProductDAO.class
+com\niit\OnlineBackend\model\OrderDetail.class
 com\niit\OnlineBackend\model\Category.class
 com\niit\OnlineBackend\model\User.class
+com\niit\OnlineBackend\daoimpl\CartLineDAOImpl.class
 com\niit\OnlineBackend\daoimpl\ProductDAOImpl.class
 com\niit\OnlineBackend\model\Product.class
+com\niit\OnlineBackend\model\Cart.class
 com\niit\OnlineBackend\App.class
+com\niit\OnlineBackend\dao\CartLineDAO.class

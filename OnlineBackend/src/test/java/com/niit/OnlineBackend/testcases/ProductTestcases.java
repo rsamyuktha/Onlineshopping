@@ -8,14 +8,19 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.niit.OnlineBackend.dao.ProductDAO;
 import com.niit.OnlineBackend.model.Product;
 public class ProductTestcases {
-	private static AnnotationConfigApplicationContext context;
+private static AnnotationConfigApplicationContext context;
+	
+	
 	private static ProductDAO productDAO;
+	
+	
 	private Product product;
-
+	
+	
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("com.shoppingbackend");
+		context.scan("com.niit.OnlineBackend");
 		context.refresh();
 		productDAO = (ProductDAO)context.getBean("productDAO");
 	}
@@ -75,4 +80,8 @@ public class ProductTestcases {
 				3,productDAO.getLatestActiveProducts(3).size());
 		
 	} 
+	
+	
+	
+		
 }

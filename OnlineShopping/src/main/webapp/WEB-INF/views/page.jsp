@@ -34,7 +34,7 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
-<link href="${css}/bootstrap-sandstone-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 
 <!-- Bootstrap DataTables -->
@@ -89,15 +89,17 @@
 			<!-- Load only when user clicks show product -->
 			<c:if test="${userClickShowProduct == true}">
 				<%@include file="singleProduct.jsp"%>
-			</c:if>			
-								
+			</c:if>								
+
+			<!-- Load only when user clicks manage product -->
+			<c:if test="${userClickManageProduct == true}">
+				<%@include file="manageProduct.jsp"%>
+			</c:if>	
 
 
-		
-	
+
 		</div>
 
-<div>
 
 		<!-- Footer comes here -->
 		<%@include file="./shared/footer.jsp"%>
@@ -123,8 +125,6 @@
 		<script src="${js}/myapp.js"></script>
 
 	</div>
-
-</div>
 
 </body>
 
