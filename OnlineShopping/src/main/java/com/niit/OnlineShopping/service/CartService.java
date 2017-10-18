@@ -119,7 +119,7 @@ public class CartService {
 		cartLineDAO.updateCart(cart);
 		
 		// remove the cartLine
-		cartLineDAO.delete(cartLine);
+		cartLineDAO.remove(cartLine);
 				
 		return "result=deleted";
 	}

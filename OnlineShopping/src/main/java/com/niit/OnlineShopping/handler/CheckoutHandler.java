@@ -169,7 +169,8 @@ public class CheckoutHandler {
 			productDAO.update(product);
 			
 			// delete the cartLine
-			cartLineDAO.delete(cartLine);
+		
+			cartLineDAO.remove(cartLine);
 			
 
 			
@@ -182,7 +183,7 @@ public class CheckoutHandler {
 		// save the order
 	
 		
-
+		cartLineDAO.addOrderDetail(orderDetail);
 		
 		
 		
@@ -215,9 +216,4 @@ public class CheckoutHandler {
 		return checkoutModel.getOrderDetail();
 	}
 	
-	
-	
 }
-
-
-

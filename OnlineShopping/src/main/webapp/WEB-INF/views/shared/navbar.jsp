@@ -28,11 +28,11 @@
                     <li id="listProducts">
                         <a href="${contextRoot}/show/all/products">View Products</a>
                     </li>
-					
+					<security:authorize access="hasAuthority('ADMIN')">
 	                    <li id="manageProduct">
 	                        <a href="${contextRoot}/manage/product">Manage Product</a>
 	                    </li>					
-		
+					</security:authorize>
                 </ul>
 			    
 			    <ul class="nav navbar-nav navbar-right">
@@ -44,7 +44,6 @@
 	                        <a href="${contextRoot}/login">Login</a>
 	                    </li> 			    	
 			    	</security:authorize>
-			    
 			    	<security:authorize access="isAuthenticated()">
 						<li class="dropdown" id="userModel">
 						  <a class="btn btn-default dropdown-toggle" href="javascript:void(0)" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

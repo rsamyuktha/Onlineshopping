@@ -26,8 +26,5 @@ public interface CartLineDAO {
 	
 	// adding order details
 	boolean addOrderDetail(OrderDetail orderDetail);
-
 	
 }
-	
-

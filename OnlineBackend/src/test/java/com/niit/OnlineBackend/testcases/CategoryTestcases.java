@@ -19,7 +19,6 @@ private static AnnotationConfigApplicationContext context;
 	
 	private Category category;
 	
-	
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
@@ -87,7 +86,7 @@ private static AnnotationConfigApplicationContext context;
 		
 	}
 	
-*/
+
 	
 	@Test
 	public void testCRUDCategory() {
@@ -125,9 +124,7 @@ private static AnnotationConfigApplicationContext context;
 		
 		//fetching the list
 		assertEquals("Successfully fetched the list of categories from the table!",1,categoryDAO.list().size());		
-				
 		
 	}
-	
-	
+*/	
 }

@@ -57,8 +57,8 @@ private static AnnotationConfigApplicationContext context;
 				6,productDAO.list().size());		
 				
 	}
-		*/	
 	
+
 	@Test
 	public void testListActiveProducts() {
 		assertEquals("Something went wrong while fetching the list of products!",
@@ -83,5 +83,5 @@ private static AnnotationConfigApplicationContext context;
 	
 	
 	
-		
+*/		
 }

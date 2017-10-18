@@ -14,7 +14,8 @@ import com.niit.OnlineBackend.model.CartLine;
 import com.niit.OnlineBackend.model.User;
 
 
-public class CartLineTestCase {
+public class CartLineTestCase
+{
 
 	
 
@@ -30,9 +31,10 @@ public class CartLineTestCase {
 	
 	
 	@BeforeClass
-	public static void init() {
+	public static void init()
+	{
 		context = new AnnotationConfigApplicationContext();
-		context.scan("net.kzn.shoppingbackend");
+		context.scan("com.niit.OnlineBackend");
 		context.refresh();
 		cartLineDAO = (CartLineDAO)context.getBean("cartLineDAO");
 		productDAO = (ProductDAO)context.getBean("productDAO");
@@ -68,10 +70,10 @@ public class CartLineTestCase {
 		
 	}
 	
-	*/
 	
 	@Test
-	public void testUpdateCartLine() {
+	public void testUpdateCartLine()
+	{
 
 		// fetch the user and then cart of that user
 		User user = userDAO.getByEmail("absr@gmail.com");		
@@ -88,10 +90,7 @@ public class CartLineTestCase {
 		cart.setGrandTotal(cart.getGrandTotal() + (cartLine.getTotal() - oldTotal));
 		
 		assertEquals("Failed to update the CartLine!",true, cartLineDAO.update(cartLine));	
-
-		
+	
 	}
-	
-	
-	
+*/	
 }
