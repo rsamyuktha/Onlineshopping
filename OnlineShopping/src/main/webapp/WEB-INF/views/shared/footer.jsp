@@ -6,7 +6,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Online Shopping 2017 - Designed and Developed By xxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>Copyright &copy; Online Shopping 2017 - Designed and Developed By R.Samyuktha</p>
                 </div>
             </div>
         </footer>
