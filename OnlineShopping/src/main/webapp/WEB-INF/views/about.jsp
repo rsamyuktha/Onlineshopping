@@ -7,7 +7,7 @@
 		<p>We strive to achieve the highest level of Customer Satisfaction possible.</p>
 		 <p>Our cutting edge E-commerce platform,highly experienced buying team, agile warehouse systems and state of the art customer care centre provides customer
 		  with:</p>
-
+<br>
 <p>Broader selection of products</p>
 <p>Superior buying experience</p>
 <p>On-time delivery of products</p>

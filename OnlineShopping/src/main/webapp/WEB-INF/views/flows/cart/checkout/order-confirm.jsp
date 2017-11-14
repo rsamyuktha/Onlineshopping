@@ -151,6 +151,7 @@
 		    		</div>
 		    	</div>
 		    </div>
+		    <td class="text-right"><strong> Grand Total</strong></td> <td class="text-right">&#8377; ${checkoutModel.checkoutTotal}</td>
 		    <div class="text-center">
 		    	<a href="${contextRoot}/show/all/products" class="btn btn-lg btn-warning">Continue Shopping</a>
 		    </div>
